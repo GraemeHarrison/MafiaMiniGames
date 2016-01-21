@@ -15,6 +15,11 @@
 		2E8C16181C501FC500B23A6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8C16161C501FC500B23A6B /* LaunchScreen.storyboard */; };
 		2E8C16231C501FC500B23A6B /* MafiaMiniGamesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C16221C501FC500B23A6B /* MafiaMiniGamesTests.m */; };
 		2E8C162E1C501FC500B23A6B /* MafiaMiniGamesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C162D1C501FC500B23A6B /* MafiaMiniGamesUITests.m */; };
+		2E8C16501C5036DA00B23A6B /* MafiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C164F1C5036DA00B23A6B /* MafiaViewController.m */; };
+		2E8C16531C5036FA00B23A6B /* SheriffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C16521C5036FA00B23A6B /* SheriffViewController.m */; };
+		2E8C16561C50379200B23A6B /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C16551C50379200B23A6B /* GameModel.m */; };
+		2E8C16591C50420600B23A6B /* MafiaMiniGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C16581C50420600B23A6B /* MafiaMiniGameViewController.m */; };
+		2E8C165C1C50422000B23A6B /* SheriffMiniGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C165B1C50422000B23A6B /* SheriffMiniGameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		2E8C16291C501FC500B23A6B /* MafiaMiniGamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MafiaMiniGamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8C162D1C501FC500B23A6B /* MafiaMiniGamesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MafiaMiniGamesUITests.m; sourceTree = "<group>"; };
 		2E8C162F1C501FC500B23A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8C164E1C5036DA00B23A6B /* MafiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MafiaViewController.h; sourceTree = "<group>"; };
+		2E8C164F1C5036DA00B23A6B /* MafiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MafiaViewController.m; sourceTree = "<group>"; };
+		2E8C16511C5036FA00B23A6B /* SheriffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheriffViewController.h; sourceTree = "<group>"; };
+		2E8C16521C5036FA00B23A6B /* SheriffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SheriffViewController.m; sourceTree = "<group>"; };
+		2E8C16541C50379200B23A6B /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		2E8C16551C50379200B23A6B /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+		2E8C16571C50420600B23A6B /* MafiaMiniGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MafiaMiniGameViewController.h; sourceTree = "<group>"; };
+		2E8C16581C50420600B23A6B /* MafiaMiniGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MafiaMiniGameViewController.m; sourceTree = "<group>"; };
+		2E8C165A1C50422000B23A6B /* SheriffMiniGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheriffMiniGameViewController.h; sourceTree = "<group>"; };
+		2E8C165B1C50422000B23A6B /* SheriffMiniGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SheriffMiniGameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,16 @@
 				2E8C160C1C501FC500B23A6B /* AppDelegate.m */,
 				2E8C160E1C501FC500B23A6B /* ViewController.h */,
 				2E8C160F1C501FC500B23A6B /* ViewController.m */,
+				2E8C164E1C5036DA00B23A6B /* MafiaViewController.h */,
+				2E8C164F1C5036DA00B23A6B /* MafiaViewController.m */,
+				2E8C16571C50420600B23A6B /* MafiaMiniGameViewController.h */,
+				2E8C16581C50420600B23A6B /* MafiaMiniGameViewController.m */,
+				2E8C16511C5036FA00B23A6B /* SheriffViewController.h */,
+				2E8C16521C5036FA00B23A6B /* SheriffViewController.m */,
+				2E8C165A1C50422000B23A6B /* SheriffMiniGameViewController.h */,
+				2E8C165B1C50422000B23A6B /* SheriffMiniGameViewController.m */,
+				2E8C16541C50379200B23A6B /* GameModel.h */,
+				2E8C16551C50379200B23A6B /* GameModel.m */,
 				2E8C16111C501FC500B23A6B /* Main.storyboard */,
 				2E8C16141C501FC500B23A6B /* Assets.xcassets */,
 				2E8C16161C501FC500B23A6B /* LaunchScreen.storyboard */,
@@ -270,9 +295,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8C16531C5036FA00B23A6B /* SheriffViewController.m in Sources */,
+				2E8C16561C50379200B23A6B /* GameModel.m in Sources */,
+				2E8C16591C50420600B23A6B /* MafiaMiniGameViewController.m in Sources */,
 				2E8C16101C501FC500B23A6B /* ViewController.m in Sources */,
+				2E8C16501C5036DA00B23A6B /* MafiaViewController.m in Sources */,
 				2E8C160D1C501FC500B23A6B /* AppDelegate.m in Sources */,
 				2E8C160A1C501FC500B23A6B /* main.m in Sources */,
+				2E8C165C1C50422000B23A6B /* SheriffMiniGameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
